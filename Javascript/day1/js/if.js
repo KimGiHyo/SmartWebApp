@@ -13,7 +13,10 @@ if(id == "green") {
     if(pw=="green"){
         alert("로그인에 성공했습니다.");
     }
+    else{ // 아이디는 맞았지만 pw가 틀렸을 때
+        alert("비밀번호를 잘못 입력했습니다.")
+    }
 }
-else{
+else{ // id가 green이 아니면
     alert("아이디를 잘못 입력했습니다.");
 }
