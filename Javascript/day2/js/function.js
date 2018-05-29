@@ -141,6 +141,8 @@ var str = String(true);
 console.log("String(true)" + str);
 
 //내장함수 encodeURIcomponent() / decodeURIcomponent() 예제
+
+
 var uri = encodeURIComponent("https://www.naver.com/");
 console.log("encodeURIComponent(https://www.naver.com/) : " + uri)
 console.log("decodeURIcomponent("+uri+")" + decodeURIComponent(uri))
