@@ -42,3 +42,33 @@ for(var i=0; i<=a; i++) {
     }
 }
 console.log(compare);
+
+
+var y = 1;
+for(y=1;y<=a*b;y++) {
+    var ma = a * y;
+    if(ma>=b) {
+        if(ma%b == 0){
+            break;
+        }
+    }
+   
+}
+console.log(ma);
+
+
+cnt = prompt("트리의 세로를 입력하세요.")
+cnt = 1*cnt;
+var i=0;
+var j=0;
+var tmp = "";
+for(i = 1; i<=cnt; i++){
+    for(j=1; j<=cnt-i; j++){
+        tmp += " ";
+    }
+    for(j=1; j<= 2*i-1; j++) {
+        tmp += "*";
+    }
+    console.log(tmp);
+    tmp="";
+}
