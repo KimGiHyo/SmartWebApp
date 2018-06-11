@@ -1,0 +1,48 @@
+@charset 'utf-8';
+
+.information{
+    color: red;
+    margin-bottom: 10px;
+    display: none;
+}
+.form-group{
+    margin-bottom: 0px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+.form-control.year{
+    display: inline-block;
+    width: 33%;
+}
+.form-control.month{
+    display: inline-block;
+    width:33%;
+    margin-bottom: 10px;
+}
+.form-control.day{
+    display: inline-block;
+    width:33%;
+    margin-bottom: 10px;
+}
+.form-control.country-code{
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+}
+.form-control.number{
+    display: inline-block;
+    width: 60%;
+}
+.form-control.certification{
+    display: inline-block;
+    width: 19%;
+}
+.form-control.certification:hover{
+   background-color: gray;
+   cursor: crosshair;
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+}
